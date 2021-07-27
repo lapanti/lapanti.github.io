@@ -233,14 +233,14 @@ html {
             > * {
             grid-area: main;
             display: grid;
-            grid: 1fr / 1fr var(--base-x2) min(60ch, calc(100% - var(--base-x4))) var(--base-x2) 1fr;
+            grid: 1fr / 1fr var(--base-x0-5) min(60ch, calc(100% - var(--base-x1))) var(--base-x0-5) 1fr;
 
             @media screen and (min-width: 700px) {
-                grid: 1fr / 1fr var(--base-x3) min(60ch, calc(100% - var(--base-x6))) var(--base-x3) 1fr;
+                grid: 1fr / 1fr var(--base-x1) min(60ch, calc(100% - var(--base-x2))) var(--base-x1) 1fr;
             }
 
             @media screen and (min-width: 750px) {
-                grid: 1fr / 1fr var(--base-x4) min(60ch, calc(100% - var(--base-x8))) var(--base-x4) 1fr;
+                grid: 1fr / 1fr var(--base-x2) min(60ch, calc(100% - var(--base-x6))) var(--base-x2) 1fr;
             }
 
                 > * {
@@ -255,9 +255,10 @@ html {
 
                     &.h {
                         margin-top: var(--negative-x1);
-                        object-fit: cover;
-                        height: var(--base-x16);
-                        background-color: var(--forest-green);
+                        object-fit: contain;
+                        max-width: 800px;
+                        margin-left: auto;
+                        margin-right: auto;
                     }
                 }
 
