@@ -80,7 +80,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/lauri-lavanti-l.jpg
+      image: /assets/images/lauri-lavanti-s.jpg
 
 defaults:
   # _posts

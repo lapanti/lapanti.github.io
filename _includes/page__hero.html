@@ -1,7 +1,10 @@
 {% if page.header.image_description %}
-  {% assign image_description = page.header.image_description %}
+{% assign image_description = page.header.image_description %}
 {% else %}
-  {% assign image_description = page.title %}
+{% assign image_description = page.title %}
 {% endif %}
 
-<img class="h" height="180" width="320" alt="{{ image_description }}" src="{{ page.header.image }}-m.{{ page.header.image_ext }}" srcset="{{ page.header.image }}-s.{{ page.header.image_ext }} 320w, {{ page.header.image }}-m.{{ page.header.image_ext }} 640w, {{ page.header.image }}-l.{{ page.header.image_ext }} 1024w, {{ page.header.image }}-xl.{{ page.header.image_ext }} 1600w" sizes="100vw" />
+<img class="h" height="135" width="315" alt="{{ image_description }}"
+  src="{{ page.header.image }}-xxs.{{ page.header.image_ext }}"
+  srcset="{{ page.header.image }}-xxs.{{ page.header.image_ext }} 315w, {{ page.header.image }}-xs.{{ page.header.image_ext }} 406w, {{ page.header.image }}-s.{{ page.header.image_ext }} 462w, {{ page.header.image }}-m.{{ page.header.image_ext }} 749w, {{ page.header.image }}-l.{{ page.header.image_ext }} 1008w, {{ page.header.image }}-xl.{{ page.header.image_ext }} 1183w, {{ page.header.image }}-xxl.{{ page.header.image_ext }} 1470w, {{ page.header.image }}-xxxl.{{ page.header.image_ext }} 1806w"
+  sizes="100vw" />
