@@ -1,9 +1,9 @@
 <figure class="{{ include.class }}">
-  <img src="{{ include.image_path | relative_url }}-s.{{ include.ext }}"
-      height="180"
-      width="320"
+  <img src="{{ include.image_path | relative_url }}-xxs.{{ include.ext }}"
+      height="135"
+      width="315"
        alt="{% if include.alt %}{{ include.alt }}{% endif %}"
-       srcset="{{ include.image_path | relative_url }}-s.{{ include.ext }} 322w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 644w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1036w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1400w, {{ include.image_path | relative_url }}-xxl.{{ include.ext }} 1820w"
+       srcset="{{ include.image_path | relative_url }}-xxs.{{ include.ext }} 315w, {{ include.image_path | relative_url }}-xs.{{ include.ext }} 406w, {{ include.image_path | relative_url }}-s.{{ include.ext }} 462w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 749w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1008w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1183w, {{ include.image_path | relative_url }}-xxl.{{ include.ext }} 1470w, {{ include.image_path | relative_url }}-xxxl.{{ include.ext }} 1806w"
        sizes="100vw">
   {%- if include.caption -%}
     <figcaption>
