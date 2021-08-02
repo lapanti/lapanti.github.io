@@ -3,7 +3,7 @@
       height="180"
       width="320"
        alt="{% if include.alt %}{{ include.alt }}{% endif %}"
-       srcset="{{ include.image_path | relative_url }}-s.{{ include.ext }} 322w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 644w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1036w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1820w"
+       srcset="{{ include.image_path | relative_url }}-s.{{ include.ext }} 322w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 644w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1036w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1400w, {{ include.image_path | relative_url }}-xxl.{{ include.ext }} 1820w"
        sizes="100vw">
   {%- if include.caption -%}
     <figcaption>
