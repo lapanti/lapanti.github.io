@@ -248,7 +248,7 @@ html {
                 }
 
                 img,
-                figure {
+                figure, picture {
                     width: 100%;
                     height: auto;
                     grid-column: 1 / -1;
@@ -257,6 +257,7 @@ html {
                         margin-top: var(--negative-x1);
                         object-fit: contain;
                         max-width: 1820px;
+                        width: 100%;
                         margin-left: auto;
                         margin-right: auto;
                     }
