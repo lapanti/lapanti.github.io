@@ -1,13 +1,11 @@
 <header>
   <nav>
-    <a href="{{ '/' | relative_url }}"><svg>
-        <use xlink:href="#logo"></use>
-      </svg><span>{{ site.masthead_title | default: site.title }}</span></a>
+    <a href="{{ '/' | relative_url }}"><span>{{ site.masthead_title | default: site.title }}</span></a>
     <ul>
       {%- for link in site.data.navigation.main -%}
       <li>
-        <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}"
-          {% endif %}>{{ link.title }}</a>
+        <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif %}>{{
+          link.title }}</a>
       </li>
       {%- endfor -%}
     </ul>
