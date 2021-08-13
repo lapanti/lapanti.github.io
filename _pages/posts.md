@@ -11,5 +11,3 @@ sort_order: reverse
 redirect_from: /kirjoitukset
 ---
 
-<h1>Blogi</h1>
-<br />

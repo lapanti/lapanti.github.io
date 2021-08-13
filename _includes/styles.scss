@@ -328,6 +328,21 @@ html {
                     margin-top: var(--base-x2);
                     margin-bottom: var(--base-x1);
                 }
+
+                      
+                    
+                a > h2 {
+                    text-decoration: none;
+                    color: var(--link-color);
+                    font-size: var(--base-x0-875);
+                    line-height: var(--base-x1);
+                    margin: var(--base-x0-5) 0;
+
+                    &:hover,
+                    &:active {
+                        text-decoration: underline;
+                    }
+                }
             }
         }
 
