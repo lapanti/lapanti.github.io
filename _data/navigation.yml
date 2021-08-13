@@ -1,5 +1,5 @@
 main:
   - title: "Minusta"
     url: /minusta
-  - title: "Kirjoitukset"
-    url: /kirjoitukset
+  - title: "Blogi"
+    url: /blogi
