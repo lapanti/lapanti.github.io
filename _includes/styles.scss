@@ -216,7 +216,11 @@ html {
                     &:hover {
                         color: var(--accent-color);
                     }
-            }
+                }
+
+                a.g {
+                    text-decoration: underline;
+                }
 
                 ul {
                     padding: 0;
