@@ -357,6 +357,10 @@ html {
                         height: var(--base-x2);
                         width: var(--base-x2);
                     }
+
+                    svg:not(:hover) {
+                        fill: var(--light-grey);
+                    }
                 }
             }
         }
