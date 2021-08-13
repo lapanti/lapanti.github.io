@@ -1,24 +1,26 @@
 {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+{% assign teaser = site.teaser %}
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
-  {% assign title = post.title %}
+{% assign title = post.title %}
 {% endif %}
 
-  <article itemscope itemtype="https://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
-      </div>
-    {% endif %}
-    <h2 itemprop="headline">
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-    </h2>
-    {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-  </article>
+<article itemscope itemtype="https://schema.org/CreativeWork">
+  <picture>
+    <img class="d" src="{{ post.header.image | relative_url }}-xxs.{{ post.header.image_ext }}" height="135" width="315"
+      alt="{% if title %}{{ title }}{% endif %}"
+      srcset="{{ post.header.image | relative_url }}-xxs.{{ post.header.image_ext }} 315w, {{ post.header.image | relative_url }}-xs.{{ post.header.image_ext }} 406w, {{ post.header.image | relative_url }}-s.{{ post.header.image_ext }} 462w, {{ post.header.image | relative_url }}-m.{{ post.header.image_ext }} 749w, {{ post.header.image | relative_url }}-l.{{ post.header.image_ext }} 1008w, {{ post.header.image | relative_url }}-xl.{{ post.header.image_ext }} 1183w, {{ post.header.image | relative_url }}-xxl.{{ post.header.image_ext }} 1470w, {{ post.header.image | relative_url }}-xxxl.{{ post.header.image_ext }} 1806w"
+      sizes="100vw">
+  </picture>
+  <h2 itemprop="headline">
+    <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+  </h2>
+  {% include page__meta.html type=include.type %}
+  {% if post.excerpt %}<p itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{%
+  endif %}
+</article>
