@@ -30,7 +30,7 @@ html {
     --link-color: #487F6D; // var(--green);
     --nav-link-color: #0C5A48; // var(--forest-green);
     --accent-color: #062D24; // var(--dark-grey);
-    --secondary-bg-color: #062e26; // var(--dark-grey);
+    --secondary-bg-color: var(--green); // var(--dark-grey);
     
     --fb-color: #4267B2;
     --twitter-color: #1DA1F2;
@@ -166,7 +166,9 @@ html {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            box-shadow: var(--box-shadow);
+            max-width: 1820px;
+            width: 100%;
+            margin: 0 auto;
             
             nav {
                 display: flex;
@@ -252,6 +254,7 @@ html {
                     width: 100%;
                     height: auto;
                     grid-column: 1 / -1;
+                    display: flex;
 
                     &.h {
                         margin-top: var(--negative-x1);
@@ -270,6 +273,7 @@ html {
 
                 figure {
                     margin: var(--base-x1) 0;
+                    display: inherit;
 
                     figcaption {
                         font-style: italic;
