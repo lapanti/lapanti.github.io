@@ -1,10 +1,16 @@
 <figure class="{{ include.class }}">
-  <img src="{{ include.image_path | relative_url }}-xxs.{{ include.ext }}"
-      height="135"
-      width="315"
-       alt="{% if include.alt %}{{ include.alt }}{% endif %}"
-       srcset="{{ include.image_path | relative_url }}-xxs.{{ include.ext }} 315w, {{ include.image_path | relative_url }}-xs.{{ include.ext }} 406w, {{ include.image_path | relative_url }}-s.{{ include.ext }} 462w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 749w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1008w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1183w, {{ include.image_path | relative_url }}-xxl.{{ include.ext }} 1470w, {{ include.image_path | relative_url }}-xxxl.{{ include.ext }} 1806w"
-       sizes="100vw">
+  <picture>
+    <source type="image/webp"
+      srcset="{{ include.image_path | relative_url }}-xxs.webp 315w, {{ include.image_path | relative_url }}-xs.webp 406w, {{ include.image_path | relative_url }}-s.webp 462w, {{ include.image_path | relative_url }}-m.webp 749w, {{ include.image_path | relative_url }}-l.webp 1008w, {{ include.image_path | relative_url }}-xl.webp 1183w, {{ include.image_path | relative_url }}-xxl.webp 1470w, {{ include.image_path | relative_url }}-xxxl.webp 1806w" />
+    <source type="image/jpg"
+      srcset="{{ include.image_path | relative_url }}-xxs.{{ include.ext }} 315w, {{ include.image_path | relative_url }}-xs.{{ include.ext }} 406w, {{ include.image_path | relative_url }}-s.{{ include.ext }} 462w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 749w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1008w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1183w, {{ include.image_path | relative_url }}-xxl.{{ include.ext }} 1470w, {{ include.image_path | relative_url }}-xxxl.{{ include.ext }} 1806w" />
+    <img src="{{ include.image_path | relative_url }}-xxs.{{ include.ext }}"
+        height="135"
+        width="315"
+        alt="{% if include.alt %}{{ include.alt }}{% endif %}"
+        srcset="{{ include.image_path | relative_url }}-xxs.{{ include.ext }} 315w, {{ include.image_path | relative_url }}-xs.{{ include.ext }} 406w, {{ include.image_path | relative_url }}-s.{{ include.ext }} 462w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 749w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1008w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1183w, {{ include.image_path | relative_url }}-xxl.{{ include.ext }} 1470w, {{ include.image_path | relative_url }}-xxxl.{{ include.ext }} 1806w"
+        sizes="(min-width: 1806px) 1806px, 100vw">
+  </picture>
   {%- if include.caption -%}
     <figcaption>
     {%- if include.link -%}

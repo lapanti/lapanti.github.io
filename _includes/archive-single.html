@@ -13,10 +13,14 @@
 <article itemscope itemtype="https://schema.org/CreativeWork">
   <a href="{{ post.url | relative_url }}" rel="permalink">
     <picture>
-      <img class="d" src="{{ post.header.image | relative_url }}-xxs.{{ post.header.image_ext }}" height="135"
-        width="315" alt="{% if title %}{{ title }}{% endif %}"
+      <source type="image/webp"
+        srcset="{{ post.header.image | relative_url }}-xxs.webp 315w, {{ post.header.image | relative_url }}-xs.webp 406w, {{ post.header.image | relative_url }}-s.webp 462w, {{ post.header.image | relative_url }}-m.webp 749w, {{ post.header.image | relative_url }}-l.webp 1008w, {{ post.header.image | relative_url }}-xl.webp 1183w, {{ post.header.image | relative_url }}-xxl.webp 1470w, {{ post.header.image | relative_url }}-xxxl.webp 1806w" />
+      <source type="image/jpg"
+        srcset="{{ post.header.image | relative_url }}-xxs.{{ post.header.image_ext }} 315w, {{ post.header.image | relative_url }}-xs.{{ post.header.image_ext }} 406w, {{ post.header.image | relative_url }}-s.{{ post.header.image_ext }} 462w, {{ post.header.image | relative_url }}-m.{{ post.header.image_ext }} 749w, {{ post.header.image | relative_url }}-l.{{ post.header.image_ext }} 1008w, {{ post.header.image | relative_url }}-xl.{{ post.header.image_ext }} 1183w, {{ post.header.image | relative_url }}-xxl.{{ post.header.image_ext }} 1470w, {{ post.header.image | relative_url }}-xxxl.{{ post.header.image_ext }} 1806w" />
+      <img class="d" src="{{ post.header.image | relative_url }}-xxs.{{ post.header.image_ext }}" height="108"
+        width="302" alt="{% if title %}{{ title }}{% endif %}"
         srcset="{{ post.header.image | relative_url }}-xxs.{{ post.header.image_ext }} 315w, {{ post.header.image | relative_url }}-xs.{{ post.header.image_ext }} 406w, {{ post.header.image | relative_url }}-s.{{ post.header.image_ext }} 462w, {{ post.header.image | relative_url }}-m.{{ post.header.image_ext }} 749w, {{ post.header.image | relative_url }}-l.{{ post.header.image_ext }} 1008w, {{ post.header.image | relative_url }}-xl.{{ post.header.image_ext }} 1183w, {{ post.header.image | relative_url }}-xxl.{{ post.header.image_ext }} 1470w, {{ post.header.image | relative_url }}-xxxl.{{ post.header.image_ext }} 1806w"
-        sizes="100vw">
+        sizes="(min-width: 630px) 606px, 100vw">
     </picture>
     <h2 itemprop="headline">
       {{ title }}
