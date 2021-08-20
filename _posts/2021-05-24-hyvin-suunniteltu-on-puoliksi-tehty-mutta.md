@@ -8,6 +8,7 @@ description: "Gesterbyn koulukeskuksen hankesuunnitelma on palautettu kunnanhall
 excerpt: "Gesterbyn koulukeskuksen hankesuunnitelma on palautettu kunnanhallituksesta lisävalmisteluun jo kolme kertaa. Kokonaisuudessaan hanketta on selvitetty ja suuniteltu jo 6 vuotta, mutta uutta rakennusta ei ole vieläkään aloitettu rakentamaan."
 seo:
   type: BlogPosting
+categories: kirkkonummi koulu
 redirect_from: 
   - /hyvin-suunniteltu-on-puoliksi-tehty-mutta
 ---

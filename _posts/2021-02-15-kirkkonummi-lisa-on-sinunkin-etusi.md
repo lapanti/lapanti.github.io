@@ -8,6 +8,7 @@ description: "Kirkkonummi-lisästä hyötyvät sitä saavien perheiden lisäksi 
 excerpt: "Kirkkonummi-lisästä hyötyvät sitä saavien perheiden lisäksi myös koko muukin kunta. Tarjoamalla lapsiperheille hyviä palveluita sekä kannustimia muuttaa Kirkkonummelle, saamme pidettyä kuntamme elinvoimaisena ja myös tulevaisuus on turvattu."
 seo:
   type: BlogPosting
+categories: kirkkonummi varhaiskasvatus
 redirect_from: 
   - /kirkkonummi-lisa-on-sinunkin-etusi
 ---

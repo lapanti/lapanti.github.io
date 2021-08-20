@@ -8,6 +8,7 @@ description: "Samalla, kun kunnanvaltuusto päätti lopettaa alle 2-vuotiaiden k
 excerpt: "Samalla, kun kunnanvaltuusto päätti lopettaa alle 2-vuotiaiden kotihoidontuen kuntalisän, lopetettiin myös Kirkkonummella toiminut varhaiskasvatuksen kerhotoiminta."
 seo:
   type: BlogPosting
+categories: kirkkonummi varhaiskasvatus
 redirect_from: 
   - /varhaiskasvatuksen-kerhotoiminta
 ---

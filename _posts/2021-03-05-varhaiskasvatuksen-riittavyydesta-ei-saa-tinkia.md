@@ -8,6 +8,7 @@ description: "Keskustan alueella on nyt jo pulaa päiväkotipaikoista. Uusien as
 excerpt: "Keskustan alueella on nyt jo pulaa päiväkotipaikoista. Uusien asemakaavojen myötä tarve tulee vain kasvamaan, eikä Jokirinne ole siihen vastaus. Kunnassa pitää huolehtia varhaiskasvatuspaikkojen riittävyydestä!"
 seo:
   type: BlogPosting
+categories: kirkkonummi varhaiskasvatus
 redirect_from: 
   - /varhaiskasvatuksen-riittavyydesta-ei-saa-tinkia
 ---

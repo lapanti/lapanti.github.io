@@ -8,6 +8,7 @@ description: "Päiväkodeissa on huutava pula varhaiskasvatuksen opettajista. Ki
 excerpt: "Päiväkodeissa on huutava pula varhaiskasvatuksen opettajista. Kirkkonummella olisi nyt mahdollisuus rakentaa uudenlaista työympäristöä ja tehdä siitä valttikortti uusien opettajien palkkaamiseen sekä nykyisten viihtymiseen!"
 seo:
   type: BlogPosting
+categories: kirkkonummi varhaiskasvatus
 redirect_from: 
   - /paivakodit-kaipaavat-opettajia
 ---
