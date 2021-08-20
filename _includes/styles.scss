@@ -50,6 +50,7 @@ html {
                 / 1fr;
         row-gap: var(--base-x1);
         min-height: 100%;
+        position: relative;
 
         a {
             text-decoration: none;
@@ -170,6 +171,9 @@ html {
             max-width: 1820px;
             width: 100%;
             margin: 0 auto;
+            position: sticky;
+            top: 0;
+            background-color: white;
             
             nav {
                 display: flex;
