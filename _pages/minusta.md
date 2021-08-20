@@ -1,7 +1,7 @@
 ---
 permalink: /minusta
 title: "Minusta"
-description: "Olen ikäni Kirkkonummella asunut 29-vuotias isä, kuntavaaliehdokas, ohjelmistokehittäjä ja diplomi-insinööri. Haluan vaikuttaa kuntani lasten ja nuorten hyvinvointiin esim kuntalisän palauttamisella ja päiväkotien ja koulujen määrällä sekä laadulla."
+description: "Olen ikäni Kirkkonummella asunut 29-vuotias isä, ohjelmistokehittäjä ja diplomi-insinööri. Haluan huolehtia siitä, että lapsilla ja nuorilla on hyvä kasvuympäristö ja valoisa tulevaisuus."
 image: /assets/images/pyoraily-harjoituksia-xxs.jpg
 seo:
   type: Person

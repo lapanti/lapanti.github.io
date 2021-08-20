@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Lauri Lavanti
-tagline: Kirkkonummelainen kuntavaaliehdokas 2021
-description: Kirkkonummelainen isä, kuntavaaliehdokas, ohjelmistokehittäjä, DI Lauri Lavanti. Ehdolla kuntavaaleissa 2021
+tagline: Kirkkonummelainen Vihreä
+description: Kirkkonummelainen isä, ohjelmistokehittäjä, diplomi-insinööri, Lauri Lavanti.
 url: https://laurilavanti.fi
 author: laurilavanti
 email: laurilavanti@gmail.com
