@@ -7,6 +7,8 @@ image: /assets/images/lastenkirjallisuutta-xxs.jpg
 description: "Samalla, kun kunnanvaltuusto päätti lopettaa alle 2-vuotiaiden kotihoidontuen kuntalisän, lopetettiin myös Kirkkonummella toiminut varhaiskasvatuksen kerhotoiminta."
 seo:
   type: BlogPosting
+redirect_from: 
+  - /varhaiskasvatuksen-kerhotoiminta
 ---
 
 Samalla, kun kunnanvaltuusto päätti [lopettaa](https://www.kirkkonummi.fi/kotihoidon-tuen-kuntalisa-182019-alkaen){:target="_blank"}{:rel="noopener noreferrer"} alle 2-vuotiaiden kotihoidon tuen kuntalisän, [lopetettiin](https://www.kirkkonummi.fi/kerhot-1){:target="_blank"}{:rel="noopener noreferrer"} myös Kirkkonummella toiminut varhaiskasvatuksen kerhotoiminta. Kerhoissa 2-5-vuotiaat lapset ovat päässeet 2-3 kertaa viikossa leikkimään muiden lasten kanssa ja osallistumaan varhaiskasvatukseen.

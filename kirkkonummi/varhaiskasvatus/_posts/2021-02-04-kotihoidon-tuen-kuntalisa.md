@@ -7,7 +7,9 @@ image: /assets/images/kotihoidossa-xxs.jpg
 description: "Joulun alla Kirkkonummen kunnanvaltuusto päätti lopettaa kotihoidon tuen kuntalisän, eli niin kutsutun Kirkkonummi-lisän. Kuntalisää Kirkkonummella maksettiin 150 euroa kuukaudessa per alle 2-vuotias lapsi, joka on kotihoidossa."
 seo:
   type: BlogPosting
-redirect_from: /kotihoidontuen-kuntalisa
+redirect_from: 
+  - /kotihoidontuen-kuntalisa
+  - /kotihoidon-tuen-kuntalisa
 ---
 
 Joulun alla Kirkkonummen kunnanvaltuusto päätti [lopettaa](https://www.kirkkonummi.fi/kotihoidon-tuen-kuntalisa-182019-alkaen){:target="_blank"}{:rel="noopener noreferrer"} kotihoidon tuen kuntalisän, eli niin kutsutun Kirkkonummi-lisän. Kuntalisää Kirkkonummella maksettiin 150 euroa kuukaudessa per alle 2-vuotias lapsi, joka on kotihoidossa. Vertailuna esimerkiksi naapurikaupungissa Espoossa maksetaan [alle 2-vuotiaasta lapsesta 190 euroa kuukaudessa ja 2-vuotiaasta lapsesta 150 euroa kuukaudessa](https://www.espoo.fi/fi-FI/Kasvatus_ja_opetus/Varhaiskasvatus/Kotona_hoitaminen/Kotihoidon_tuki){:target="_blank"}{:rel="noopener noreferrer"}.
