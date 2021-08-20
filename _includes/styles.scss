@@ -162,6 +162,15 @@ html {
         .s {
             margin-top: var(--base-x1);
         }
+        
+        .u {
+            display: flex;
+            flex-direction: column;
+
+            > :not(:last-child) {
+                margin-bottom: var(--base-x0-5);
+            }
+        }
 
 
         > header {

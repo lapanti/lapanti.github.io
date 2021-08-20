@@ -5,6 +5,7 @@ header:
   image_ext: jpg
 image: /assets/images/laajakallion-paivakoti-xxs.jpg
 description: "Keskustan alueella on nyt jo pulaa päiväkotipaikoista. Uusien asemakaavojen myötä tarve tulee vain kasvamaan, eikä Jokirinne ole siihen vastaus. Kunnassa pitää huolehtia varhaiskasvatuspaikkojen riittävyydestä!"
+excerpt: "Keskustan alueella on nyt jo pulaa päiväkotipaikoista. Uusien asemakaavojen myötä tarve tulee vain kasvamaan, eikä Jokirinne ole siihen vastaus. Kunnassa pitää huolehtia varhaiskasvatuspaikkojen riittävyydestä!"
 seo:
   type: BlogPosting
 redirect_from: 

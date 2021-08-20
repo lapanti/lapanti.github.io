@@ -5,6 +5,7 @@ header:
   image_ext: jpg
 image: /assets/images/lastenkirjallisuutta-xxs.jpg
 description: "Samalla, kun kunnanvaltuusto päätti lopettaa alle 2-vuotiaiden kotihoidontuen kuntalisän, lopetettiin myös Kirkkonummella toiminut varhaiskasvatuksen kerhotoiminta."
+excerpt: "Samalla, kun kunnanvaltuusto päätti lopettaa alle 2-vuotiaiden kotihoidontuen kuntalisän, lopetettiin myös Kirkkonummella toiminut varhaiskasvatuksen kerhotoiminta."
 seo:
   type: BlogPosting
 redirect_from: 
