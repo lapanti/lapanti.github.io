@@ -192,6 +192,11 @@ html {
                 align-items: center;
                 justify-content: space-between;
                 margin: 0 var(--base-x1);
+                height: 100%;
+
+                > a, > ul {
+                    height: 100%;
+                }
 
 
                 > a {
@@ -243,6 +248,17 @@ html {
                     list-style-type: none;
                     display: flex;
                     flex-direction: row;
+                    align-items: center;
+
+                    li {
+                        height: 100%;
+
+                        a {
+                            display: flex;
+                            align-items: center;
+                            height: 100%;
+                        }
+                    }
 
                     li:not(:last-of-type) {
                         margin-right: var(--base-x0-5);
