@@ -3,20 +3,56 @@
 <html lang="fi">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Wanha suomi generaattori</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                outline: none;
+                border: none;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 100vh;
+                gap: 1.5rem;
+            }
+
+            h1 {
+                margin-right: 1rem;
+                margin-left: 1rem;
+                line-height: 2rem;
+                font-size: 1.5rem;
+            }
+
+            textarea {
+                flex-grow: 2;
+                width: calc(100vw - 4rem);
+                border: 1px solid grey;
+                border-radius: 2px;
+                padding: 0.5rem;
+            }
+
+            #button {
+                background-color: teal;
+                padding: 0.25rem;
+                border-radius: 2px;
+                color: white;
+                height: 1.5rem;
+                font-size: 1rem;
+                line-height: 1rem;
+            }
+        </style>
     </head>
 
     <body>
-        <h1>Syötä nykykielinen tekstisi ja saa lahjaksi Mikael Agricolamaiseksi muunettu versio siitä</h1>
-        <section>
-            <textarea id="input"></textarea>
-        </section>
-        <section>
-            <button id="button">Käännä</button>
-        </section>
-        <section>
-            <textarea readonly id="output"></textarea>
-        </section>
+        <h1>Syötä nykykielinen tekstisi ja saa lahjaksi Mikael Agricolamaiseksi muunnettu versio siitä</h1>
+        <textarea id="input" aria-label="Enter your finnish text here" spellcheck="false"></textarea>
+        <button id="button" aria-label="Click here to translate your finnish text to ye olde finnish text">Käännä</button>
+        <textarea readonly id="output" aria-label="Get ye olde finnish text here" spellcheck="false"></textarea>
     </body>
 
     <script>
