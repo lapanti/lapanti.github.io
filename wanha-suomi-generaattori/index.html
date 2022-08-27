@@ -69,6 +69,48 @@
                 .replace(/j/g, 'i')
                 // Replace 'J' with 'I'
                 .replace(/J/g, 'I')
+                // Replace 'ii' with 'ij'
+                .replace(/ii/g, 'ij')
+                // Replace 'ä' with 'e'
+                .replace(/ä/g, 'e')
+                // Replace 'Ä' with 'E'
+                .replace(/Ä/g, 'E')
+                // Replace 'tk' with 'tc'
+                .replace(/tk/g, 'tc')
+                // Replace 'lk' with 'lc'
+                .replace(/lk/g, 'lc')
+                // Replace 'np' with 'mb'
+                .replace(/np/g, 'mb')
+                // Replace 'kr' with 'cr'
+                .replace(/kr/g, 'cr')
+                // Replace 'ö' with 'o'
+                .replace(/ö/g, 'o')
+                // Replace 'Ö' with 'O'
+                .replace(/Ö/g, 'O')
+                // Replace 'å' with 'o'
+                .replace(/å/g, 'o')
+                // Replace 'Å' with 'O'
+                .replace(/Å/g, 'O')
+                // Replace 'd' with 'dh'
+                .replace(/d/g, 'dh')
+                // Replace word ending in 'aa' with 'a'
+                .replace(/aa([bcdfghjklmnpqrstvwxz]+)\b/g, 'a$1')
+                // Replace word ending in 'ee' with 'e'
+                .replace(/ee([bcdfghjklmnpqrstvwxz]+)\b/g, 'e$1')
+                // Replace word ending in 'ii' with 'i'
+                .replace(/ii([bcdfghjklmnpqrstvwxz]+)\b/g, 'i$1')
+                // Replace word ending in 'oo' with 'o'
+                .replace(/oo([bcdfghjklmnpqrstvwxz]+)\b/g, 'o$1')
+                // Replace word ending in 'yy' (or 'yy[consonant]') with 'y'
+                .replace(/yy([bcdfghjklmnpqrstvwxz]+)\b/g, 'y$1')
+                // Replace 'uu' with 'w'
+                .replace(/uu/g, 'w')
+                // Replace 'Uu' with 'W'
+                .replace(/Uu/g, 'W')
+                // Replace 'u' with 'v'
+                .replace(/u/g, 'v')
+                // Replace 'U' with 'V'
+                .replace(/U/g, 'V')
 
             document.getElementById('output').value = replaced
         }
