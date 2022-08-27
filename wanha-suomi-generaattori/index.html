@@ -9,13 +9,28 @@
     <body>
         <h1>Syötä nykykielinen tekstisi ja saa lahjaksi Mikael Agricolamaiseksi muunettu versio siitä</h1>
         <section>
-            <textarea></textarea>
+            <textarea id="input"></textarea>
         </section>
         <section>
-            <button>Käännä</button>
+            <button id="button">Käännä</button>
         </section>
         <section>
-            <textarea readonly></textarea>
+            <textarea readonly id="output"></textarea>
         </section>
     </body>
+
+    <script>
+        function translate() {
+            const input = document.getElementById('input').value
+
+            const replaced = input
+                // Replace 'j' with 'i'
+                .replace(/j/g, 'i')
+                // Replace 'J' with 'I'
+                .replace(/J/g, 'I')
+
+            document.getElementById('output').value = replaced
+        }
+        document.getElementById('button').onclick = translate
+    </script>
 </html>
